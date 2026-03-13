@@ -1,8 +1,4 @@
-Absolutely! Here's a clean and professional `README.md` tailored for a GitHub repository that demonstrates **fine-tuning Phi-2 and LLaMA-1B using PEFT** (like LoRA), without including project-specific names or paths:
 
----
-
-```markdown
 # Fine-Tuning LLMs with PEFT (Phi-2 & LLaMA-1B)
 
 This repository demonstrates parameter-efficient fine-tuning (PEFT) techniques such as LoRA on large language models, specifically **Phi-2** and **LLaMA-1B**. The approach reduces training costs and hardware requirements by modifying only a small subset of parameters.
@@ -127,12 +123,3 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 - For quantized loading, `bitsandbytes` is recommended.
 
 ---
-
-## 📄 License
-
-This project is intended for research and educational purposes. Refer to individual model licenses for usage restrictions.
-```
-
----
-
-Let me know if you want badges, screenshots, or Colab support added too!
